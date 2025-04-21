@@ -323,9 +323,7 @@ button:hover {
 
 .circle-absolute {
     position: absolute;
-    /* top:50%;
-    left:50%; 
-    transform: translate(-50%,-50%);  */
+    
 }
 
 .justify-center {
@@ -345,20 +343,24 @@ button:hover {
 
 .facebook-icon {
     top: -22px;
-    left: 0;
+    /* left: 0; */
+    left:-50px;
 }
 
 .linkedin-icon {
     top: 80px;
-    left: 0;
+    /* left: 0; */
+    left: -50px;
 }
 
 .insta-icon {
     bottom: 80px;
-    left: 0;
+    /* left: 0; */
+    left: -50px;
 }
 
 .twitter-icon {
-    bottom: -22px;
-    left: 0;
+    bottom: -19px;
+    /* left: 0; */
+    left: -50px;
 }
