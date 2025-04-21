@@ -31,7 +31,7 @@
     width: 50%;
     padding-left: 12px;
     padding-right: 12px;
-    height:100vh;
+    height: 100vh;
 }
 
 .background {
@@ -41,7 +41,7 @@
 .min-vh-100 {
     min-height: 100vh;
     width: 100%;
-    
+
 }
 
 .relative {
@@ -77,10 +77,10 @@
 
 }
 
-  label[for="email"] {
-   
+label[for="email"] {
+
     height: 44px;
-}  
+}
 
 .email-form {
     padding-top: 10px;
@@ -146,24 +146,7 @@ form {
     max-width: 340.5px;
 
 }
-
-/* .button-style {
-    width: 340px;
-    height: 48px;
-    padding: 14px 32px;
-    margin-top: 24px;
-    border-radius: 50px;
-    color: #FFFFFF;
-    border: none;
-    background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    vertical-align: middle;
-} */
- .button:hover {
+.button:hover {
     background-color: linear-gradient(83.67deg, #57aeff 10.02%, #427eff 90.05%);
     transition: all 50ms linear;
     box-shadow: 0px 13px 19px 0px #00000012;
@@ -171,7 +154,7 @@ form {
 
 
 
- .button-style {
+.button-style {
     width: 100%;
     height: 48px;
     border-radius: 50px;
@@ -183,7 +166,7 @@ form {
     border: none;
     margin-top: 24px;
     background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
-} 
+}
 
 button:hover {
     cursor: pointer;
@@ -238,7 +221,7 @@ button:hover {
 .platform:hover {
     box-shadow: 0px 13px 19px 0px #00000012;
     transition: all 50ms linear;
-     color:black;
+    color: black;
 }
 
 .size {
@@ -326,31 +309,56 @@ button:hover {
 .mt-16 {
     margin-top: 16px;
 }
-.blue-circle{
-    width:499.29px;
-    height:499.29px;
-    border-radius:100%;
-    background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
 
+.blue-circle {
+    width: 499.29px;
+    height: 499.29px;
+    border-radius: 100%;
+    background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
-.circle-absolute{
-    position:absolute;
-     /* top:50%;
+
+.circle-absolute {
+    position: absolute;
+    /* top:50%;
     left:50%; 
     transform: translate(-50%,-50%);  */
 }
-.justify-center{
+
+.justify-center {
     justify-content: center;
 }
-.white-circle{
+
+.icon-box {
     width: 64px;
     height: 64px;
-    top: 219.75px;
-    left: 838.24px;
-    border-radius: 42px;  
-    background: #FFFFFF;
+    border-radius: 42px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 }
-.circle1{
-    
+
+.facebook-icon {
+    top: -22px;
+    left: 0;
+}
+
+.linkedin-icon {
+    top: 80px;
+    left: 0;
+}
+
+.insta-icon {
+    bottom: 80px;
+    left: 0;
+}
+
+.twitter-icon {
+    bottom: -22px;
+    left: 0;
 }
