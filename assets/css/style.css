@@ -12,7 +12,7 @@
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 100%;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
@@ -31,6 +31,7 @@
     width: 50%;
     padding-left: 12px;
     padding-right: 12px;
+    height:100vh;
 }
 
 .background {
@@ -40,6 +41,7 @@
 .min-vh-100 {
     min-height: 100vh;
     width: 100%;
+    
 }
 
 .relative {
@@ -323,4 +325,32 @@ button:hover {
 
 .mt-16 {
     margin-top: 16px;
+}
+.blue-circle{
+    width:499.29px;
+    height:499.29px;
+    border-radius:100%;
+    background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+
+
+}
+.circle-absolute{
+    position:absolute;
+     /* top:50%;
+    left:50%; 
+    transform: translate(-50%,-50%);  */
+}
+.justify-center{
+    justify-content: center;
+}
+.white-circle{
+    width: 64px;
+    height: 64px;
+    top: 219.75px;
+    left: 838.24px;
+    border-radius: 42px;  
+    background: #FFFFFF;
+}
+.circle1{
+    
 }
